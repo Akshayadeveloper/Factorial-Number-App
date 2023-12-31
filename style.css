@@ -1,0 +1,39 @@
+/* styles.css */
+@import url( 
+"https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+  body {
+    font-family: sans-serif;
+    text-align: center;
+    color:#fff;
+    overflow: hidden;
+            background: url('https://source.unsplash.com/1920x1080/?earth') no-repeat fixed;
+            background-size: cover;
+            animation: earthBackground 10s infinite linear;
+  }
+  }
+
+  input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    background-image:url("https://media3.giphy.com/media/FMsbSSjEe0N6zH7K7x/giphy.gif?cid=6c09b952omxfiz085vcwfm5j7lhw2owqqdbu8x839cyi6hho&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g");
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .output {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #num{
+    color:#000;
+      background-image:url("https://img.freepik.com/premium-photo/abstract-background-wallpaper-colorful_665280-514.jpg?w=740");
+  }
